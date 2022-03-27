@@ -12,5 +12,5 @@ export const Lateral = styled.div`
   justify-content: space-between;
   box-sizing: border-box;
   overflow: auto;
-  flex-shrink: 0; 
+  flex-shrink: 0;
 `;

@@ -52,7 +52,7 @@ export const Actions = styled.img`
 
 export const Likes = styled.div`
   display: flex;
-`
+`;
 
 export const Number = styled.span`
   font-family: Ubuntu, sans-serif;
@@ -60,4 +60,3 @@ export const Number = styled.span`
   color: #edc531;
   padding-left: 0.3rem;
 `;
-

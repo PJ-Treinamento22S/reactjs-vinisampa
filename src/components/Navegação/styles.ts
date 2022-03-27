@@ -13,12 +13,12 @@ export const Li = styled.li`
   display: flex;
   align-items: center;
   margin-bottom: 16px;
-`
+`;
 
 export const Img = styled.img`
   height: 25px;
   width: 25px;
-`
+`;
 
 export const Title = styled.a`
   font-family: Nunito, sans-serif;

@@ -1,13 +1,13 @@
 import React from "react";
 import * as S from "./styles";
-import Piar from "./../Piar/index"
+import Piar from "./../Piar/index";
 import Home from "./../../assets/home.svg";
 import Hashtag from "./../../assets/hashtag.svg";
 import Sino from "./../../assets/sino.svg";
 import Envelope from "./../../assets/envelope.svg";
 import Box from "./../../assets/comente.svg";
 import Perfil from "./../../assets/busto.svg";
-import { Icon } from '@iconify/react';
+import { Icon } from "@iconify/react";
 
 const Navegação: React.FC = () => {
   return (
@@ -44,7 +44,7 @@ const Navegação: React.FC = () => {
             <Icon icon="ic:outline-more-vert" color="#805b10" height="25" />
             <S.Title>Mais</S.Title>
           </S.Li>
-          <Piar/>
+          <Piar />
         </S.List>
       </S.Menu>
     </>

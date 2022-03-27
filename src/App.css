@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: Ubuntu;
-  src: url(./../Fontes/Ubuntu/Ubuntu-Regular.ttf)
+  src: url(./../Fontes/Ubuntu/Ubuntu-Regular.ttf);
 }
 
 .App {
@@ -15,7 +15,7 @@
   display: flex;
 }
 
-#principal{
+#principal {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -23,64 +23,64 @@
   height: 2000px;
 }
 
-#homeInput{
+#homeInput {
   display: flex;
   width: 100%;
-  border-bottom: solid 1px #805B10;
+  border-bottom: solid 1px #805b10;
 }
 
-#home{
+#home {
   width: 20%;
   padding: 1rem 0rem 5rem 2rem;
 }
 
-#home h1{
+#home h1 {
   font-family: Nunito, sans-serif;
   font-size: 24px;
-  color: #805B10;
+  color: #805b10;
   padding-bottom: 1rem;
 }
 
-.userBig{
+.userBig {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
 }
 
-#inputPiu{
+#inputPiu {
   display: flex;
   flex-direction: column;
   width: 60%;
 }
 
-#txtPiu{
+#txtPiu {
   width: 100%;
   background-color: white;
   border: none;
   padding-top: 7rem;
   padding-bottom: 2rem;
   font-family: Ubuntu, sans-serif;
-  color: #805B10;
+  color: #805b10;
   font-size: 20px;
   padding-left: 1rem;
   resize: none;
 }
 
-#txtPiu::placeholder{
-  color: #805B10;
+#txtPiu::placeholder {
+  color: #805b10;
 }
 
-#txtPiu:focus{
+#txtPiu:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
-} 
-
-.caracteres{
-  font-family: Ubuntu;
-  color: #805B10; 
 }
 
-#inputPiu ul{
+.caracteres {
+  font-family: Ubuntu;
+  color: #805b10;
+}
+
+#inputPiu ul {
   display: flex;
   list-style: none;
   width: 80%;
@@ -89,23 +89,23 @@
   padding-right: 1rem;
 }
 
-.inputImg{
+.inputImg {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-#botãoPiar2{
+#botãoPiar2 {
   display: flex;
   width: 25%;
   flex-direction: column-reverse;
   padding-bottom: 0.5rem;
-  border-right: solid 1px #805B10;
+  border-right: solid 1px #805b10;
 }
 
-#btn2{
+#btn2 {
   font-family: Nunito, sans-serif;
   font-size: 28px;
-  background-color: #EDC531;
+  background-color: #edc531;
   color: white;
   border-radius: 64px;
   height: 25%;
@@ -114,7 +114,7 @@
   border-style: none;
 }
 
-#pesquisa{
+#pesquisa {
   display: flex;
   width: 25%;
   flex-direction: column;
@@ -122,58 +122,56 @@
   box-sizing: border-box;
 }
 
-#barraPesquisa{
+#barraPesquisa {
   width: 90%;
   display: flex;
   align-items: center;
-  border: solid 1px #805B10;
+  border: solid 1px #805b10;
   border-radius: 4rem;
 }
 
-#search{
+#search {
   width: 100%;
   padding-left: 15%;
   padding-top: 1rem;
 }
 
-#searchInput{
+#searchInput {
   width: 75%;
   background-color: white;
   border: none;
   padding: 0.5rem 0rem;
   text-align: center;
   font-family: Ubuntu;
-  font-size: 1.5rem;  
-	background-repeat:no-repeat;
-  color: #805B10
+  font-size: 1.5rem;
+  background-repeat: no-repeat;
+  color: #805b10;
 }
 
-#searchInput::placeholder{
-  color: #805B10;
+#searchInput::placeholder {
+  color: #805b10;
 }
 
-#searchInput:focus{
+#searchInput:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
 }
 
-#lupa{
+#lupa {
   padding-left: 10px;
   width: 2.5rem;
   height: 2.5rem;
 }
 
-#pesquisa h1{
+#pesquisa h1 {
   font-family: Ubuntu, sans-serif;
-  color: #805B10;
+  color: #805b10;
   padding: 2rem 0rem;
   margin-left: 1.5rem;
   font-size: 1.7rem;
 }
 
-#acontecimentos{
+#acontecimentos {
   display: flex;
   flex-direction: column;
 }
-
-

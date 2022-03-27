@@ -35,7 +35,7 @@ interface PiuLike {
   piu: PiuProps;
 }
 
-const Piu: React.FC<PiuProps> = (props) => {  
+const Piu: React.FC<PiuProps> = (props) => {
   return (
     <>
       <S.Piu key={props.id}>

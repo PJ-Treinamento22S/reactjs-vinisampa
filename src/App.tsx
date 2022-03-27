@@ -13,7 +13,7 @@ import Camera from "./../src/assets/camera.svg";
 
 function App() {
   const [qntdd, setQntdd] = useState(0);
-      
+
   return (
     <>
       <div className="App">
@@ -79,7 +79,7 @@ function App() {
           </form>
 
           <main>
-            <Feed/>
+            <Feed />
           </main>
         </div>
 

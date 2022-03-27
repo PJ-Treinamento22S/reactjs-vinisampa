@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from "react";
 import api from "./../../config/api";
 import Piu from "./../Piu";
-import {PiuProps} from "./../Piu"
+import { PiuProps } from "./../Piu";
 
 function Feed() {
   const [pius, setPius] = useState<PiuProps[]>([]);
 
   useEffect(() => {
-    async function getPiu () {
-      const response = await api.get('/pius');
+    async function getPiu() {
+      const response = await api.get("/pius");
       setPius(response.data);
       console.log(response.data);
     }
-    getPiu()
+    getPiu();
   }, []);
-    
+
   return (
     <>
       {pius.map((piu) => (
@@ -28,7 +28,6 @@ function Feed() {
           updated_at={piu.updated_at}
         />
       ))}
-      
     </>
   );
 }

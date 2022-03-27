@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Tira = styled.div`
   width: 100%;
   margin-bottom: 16px;
-  
 `;
 
 export const Perfil = styled.button`
@@ -19,7 +18,6 @@ export const Perfil = styled.button`
     background-color: #eee;
   }
 `;
-
 
 export const Photo = styled.img`
   height: 50px;
